@@ -1,5 +1,6 @@
-FROM node:18.16.1
+FROM node:18.16.0-alpine
 
+RUN apk add -U subversion
 
 #Set working directory to /app
 WORKDIR /app
