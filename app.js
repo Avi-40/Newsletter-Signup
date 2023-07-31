@@ -22,18 +22,6 @@ app.post("/", function (req, res) {
   var LastName = req.body.lName;
   var email = req.body.email;
   var listID = "1d68976b31";
-  // const run = async () => {
-  //   const response = await client.lists.addListMember(listID, {
-  //     email_address: email,
-  //     status: "subscribed",
-  //     merge_fields: {
-  //       FNAME: FirstName,
-  //       LNAME: LastName,
-  //     },
-  //   });
-  //   console.log(response);
-  // };
-  //run();
   const data = {
     members: [
       {
