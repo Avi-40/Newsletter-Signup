@@ -3,8 +3,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
 const https = require("node:https");
-// const path = require("path");
-// const { fileURLToPath } = require("url");
 const mailchimp = require("@mailchimp/mailchimp_marketing");
 
 mailchimp.setConfig({
