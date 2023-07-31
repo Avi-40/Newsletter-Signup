@@ -1,9 +1,4 @@
-// import express from "express";
 
-// import bodyParser from "body-parser";
-// import request from "request";
-// import path from "path";
-// import { fileURLToPath } from "url";
 const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
